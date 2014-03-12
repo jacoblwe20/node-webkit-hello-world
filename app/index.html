@@ -1,26 +1,4 @@
 <!doctype html>
 <title>Node Webkit Demo</title>
 <p> Hello World </p>
-<script>
-	// Load native UI library
-	var gui = require('nw.gui');
-
-	// Create an empty menu
-	var menu = new gui.Menu({ type: 'menubar' });
-	var menuItem = new gui.MenuItem({ label: 'File' });
-	gui.Window.get().menu = menu;
-
-	var submenu = new gui.Menu();
-	submenu.append(new gui.MenuItem({ 
-		label: 'Item 1',
-		click : function ( ) {
-			alert('Clicked Item 1')
-		}
-	}));
-	submenu.append(new gui.MenuItem({ label: 'Item 2' }));
-	submenu.append(new gui.MenuItem({ label: 'Item 3' }));
-	menuItem.submenu = submenu;
-
-	menu.append( menuItem );
-
-</script>
+<script src="js/index.js"></script>
