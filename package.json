@@ -9,6 +9,6 @@
   "author": "",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "nodewebkit": "~0.8.5"
+    "nodewebkit": "~0.11.6"
   }
 }
